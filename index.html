@@ -72,5 +72,13 @@
 </svg>  
  <h2>VALVE STORE SERVICES MAINTANCE</h2>
  <audio src="assets/why-do-i.mp3" loop autoplay></audio>
+ <script>
+    var audio = document.getElementById('audioPlayer');
+    var playButton = document.getElementById('playButton');
+
+    playButton.addEventListener('click', function() {
+        audio.play();
+    });
+</script>
 </body>
 </html>
