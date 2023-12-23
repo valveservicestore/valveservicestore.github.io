@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join CS:GO Server</title>
+    <style>
+        body {
+            background: url('path-to-your-esports-background-image.jpg') center/cover no-repeat fixed;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            color: #fff;
+            outline: none;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="steam://connect/commendbot.ggwp.cc:27737/Commendbot" method="post">
+        <h2>Join CS:GO Server</h2>
+        <button type="submit">Join Server</button>
+    </form>
+</body>
+</html>
+
+
+// disable viewing page source
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+				 alert('Content is protected\nYou cannot view the page source.');
+            return false;
+        } else {
+            return true;
+        }
+};
+	$(document).keypress("u",function(e) {
+	if(e.ctrlKey)
+	{
+	return false;
+	}
+	else
+	{
+	return true;
+	}
+});
+</script>
